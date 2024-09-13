@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200x;
+  
+}
+.paragraph{
+    font-size: 14px;
+    color: gray
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 20px;
+}
+
+ fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-label {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px 15px;
+}  
+.firsts-row{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    gap: 20px;
+    
+
+}
+.green-button{
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 2px;
+
+ }
+ @media  screen and (max-width:500px) {
+    .firsts-row{
+        flex-grow: 1;
+        
+    
+    }
+    
+ }
